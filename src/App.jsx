@@ -1,5 +1,5 @@
 import NotesPage from "./pages/NotesPage";
- 
+
 function App() {
     return (
         <div id="app">
@@ -7,3 +7,5 @@ function App() {
         </div>
     );
 }
+
+export default App;
