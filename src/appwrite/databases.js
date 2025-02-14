@@ -44,5 +44,5 @@ collections.forEach((collection) => {
         },
     };
 });
- 
+
 export { db };
