@@ -19,7 +19,7 @@ const NotesPage = () => {
     return (
         <div>
             {notes.map((note) => (
-                <NoteCard note={note} key={note.$id} />
+                <NoteCard key={note.$id} note={note} setNotes={setNotes} />
             ))}
         </div>
     );
